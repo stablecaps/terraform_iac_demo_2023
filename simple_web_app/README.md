@@ -6,6 +6,7 @@
 This is a very simple app that listens to requests on ports `*:80`, `*:8080`, and `*:8000`.
 
 ## Build and run
+!! NOTE: Make sure your aws creds are exported into your environment
 
 Use script `simple_web_app/build_and_push_docker_image.sh` or using:
 
