@@ -12,15 +12,18 @@ if [ -z "$DEPLOY_ENV" ]; then
 fi
 
 
+
 ### Note: github actions runner will not have r53 perms to reduce secirity blast radius
 for INIT_DIR in "01_ecs_cluster_fargate" "02_ecs_alb" "04_traefik_service" "05c_ecs_scaps_service"; do
     echo -e "\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
     echo "@@@@@@@@@@ Deploying $INIT_DIR @@@@@@@@@@@"
     echo -e "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n"
 
+    cp -vf ./xxx_tfhelperv2.sh init_points/$INIT_DIR/
+
     cd init_points/$INIT_DIR
         pwd
         # TODO: add TF CI switches for clearer log output
-        ./xxx_tfhelper.sh terraform yes $DEPLOY_ENV full
+        ./xxx_tfhelperv2.sh terraform yes $DEPLOY_ENV full
     cd -
 done

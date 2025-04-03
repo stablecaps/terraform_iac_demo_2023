@@ -200,5 +200,6 @@ temp.state
 .vscode/
 email_configured
 */**/.pluralith
-envs/dev/dev.backend.real.hcl
-envs/dev/dev.real.tfvars
+envs/dev/dev.backend.hcl
+envs/dev/dev.tfvars
+.qodo
