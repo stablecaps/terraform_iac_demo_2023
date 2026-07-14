@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/stablecaps/terraform_iac_demo_2023/blob/master/init_points/00b_github_actions_oidc/ini_iam_openid_connect_provider.tf,4,1
+/stablecaps/terraform_iac_demo_2023,2,1
+/stablecaps/terraform_iac_demo_2023/blob/master/init_points/00b_github_actions_oidc/ini_github_actions_role.tf,2,1
+/stablecaps/terraform_iac_demo_2023/blob/master/xxx_tfhelperv2.sh,2,1
+/stablecaps/terraform_iac_demo_2023/tree/master/envs/dev,2,1
+/stablecaps/terraform_iac_demo_2023/blob/master/README.md,1,1
+/stablecaps/terraform_iac_demo_2023/blob/master/envs/dev/README.md,1,1
+/stablecaps/terraform_iac_demo_2023/blob/master/envs/dev/dev.backend.template.hcl,1,1
+/stablecaps/terraform_iac_demo_2023/blob/master/envs/dev/dev.template.tfvars,1,1
+/stablecaps/terraform_iac_demo_2023/tree/master/envs,1,1
